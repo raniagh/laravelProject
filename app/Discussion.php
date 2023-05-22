@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Discussion extends Model
+{
+    protected $primaryKey = 'id_discussion';
+    protected $fillable = ['type'];
+}
